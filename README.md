@@ -1,3 +1,8 @@
+Record Keeping:
+Code was worked on by two people:
+Driver: Jessi
+Navigator: Daniel
+
 # About-Me
 About Me, with a guessing game
 

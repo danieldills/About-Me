@@ -6,34 +6,37 @@ alert ('Welcome ' + userName + '!')
 // final score
 let finalScore = 0
 
-let myLocation = prompt('Am I from Kent?');
-let lowerMyLocation = myLocation.toLowerCase();
-
-switch (lowerMyLocation) {
-    case 'yes':
-        //console.log ('Great job!');
-        alert ('Great job!');
-        finalScore = finalScore +1
-        break;
-    case 'y':
-        //console.log ('Great job!');
-        alert ('Great job!')
-        finalScore = finalScore +1
-        break;
-    case 'true':
-        //console.log ('Great job!');
-        alert ('Great job!!')
-        finalScore = finalScore +1
-        break;
-    case 't':
-        //console.log ('Great job!');
-        alert ('Great job!');
-        finalScore = finalScore +1
-        break;
-    default:
-        //console.log ('Wrong! Kent is my home of record =)')
-        alert ('Wrong! Kent is my home of record =)')
+function myLocation(){
+    let myLocation = prompt('Am I from Kent?');
+    let lowerMyLocation = myLocation.toLowerCase();
+    switch (lowerMyLocation) {
+        case 'yes':
+            //console.log ('Great job!');
+            alert ('Great job!');
+            finalScore = finalScore +1
+            break;
+        case 'y':
+            //console.log ('Great job!');
+            alert ('Great job!')
+            finalScore = finalScore +1
+            break;
+        case 'true':
+            //console.log ('Great job!');
+            alert ('Great job!!')
+            finalScore = finalScore +1
+            break;
+        case 't':
+            //console.log ('Great job!');
+            alert ('Great job!');
+            finalScore = finalScore +1
+            break;
+        default:
+            //console.log ('Wrong! Kent is my home of record =)')
+            alert ('Wrong! Kent is my home of record =)')
+    }
 }
+
+myLocation();
 
 let myCollege = prompt('Did I go to WSU?');
 let lowerMyCollege = myCollege.toLowerCase();
