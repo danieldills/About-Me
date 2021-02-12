@@ -5,6 +5,7 @@ alert ('Welcome ' + userName +'!')
 
 // final score
 let finalScore = 0
+
 // Question 1
 function myLocation(){
     let myLocation = prompt('Am I from Kent?');
